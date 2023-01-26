@@ -30,11 +30,13 @@ async function deleteCar(id: number) {
   await carRepository.deleteCar(id);
 }
 
+
 const carService = {
   getCars,
   getCar,
   createCar,
-  deleteCar
+  deleteCar,
+  
 }
 
 export default carService;
